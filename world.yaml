@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: world
-        image: harshakata/world:latest
+        image: harshakata/world:latest #harshakata is my docker hub username (my-docker-hub-username/world)
         ports:
         - containerPort: 3001
 

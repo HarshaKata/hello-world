@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hello
-        image: harshakata/hello:latest
+        image: harshakata/hello:latest  #harshakata is my docker hub username (my-docker-hub-username/hello)
         ports:
         - containerPort: 3000
 
