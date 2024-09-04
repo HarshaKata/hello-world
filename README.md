@@ -1,11 +1,6 @@
-Ensure you are in master branch
-Download the code into local machine
-Extarct the zip file
-open VS Code and open the downloaded folder 
-
 Setting up the development environment:
   Downlaod and install Node.js, which indeed include npm
-
+  
   Ensure you are in master branch, then download the code into local machine
   Extarct the zip file
   Open VS Code and open the downloaded folder 
@@ -15,13 +10,13 @@ Setting up the development environment:
   Initialized git using git init #initialize git
 
 Building docker images:
-  Execute following commands in terminal:
+  Execute following commands in terminal: (ensure you are in right directory)
     docker login
   #to build the docker images of both microservices
     docker build -t hello:latest -f Dockerfile.hello .
     docker build -t world:latest -f Dockerfile.world .
-  #tag and push the images to Docke rhub
-    docker tag hello:latest harshakata/hello:latest  #harshakata is my dockerhub username docker tag hello:latest harshakata/hello:latest
+  #tag and push the images to Docker hub
+    docker tag hello:latest harshakata/hello:latest  #harshakata is my dockerhub username.. command is docker tag hello:latest harshakata/hello:latest
     docker tag world:latest harshakata/world:latest
     docker push harshakata/hello:latest
     docker push harshakata/world:latest
@@ -35,7 +30,7 @@ Deploying application on Kubernetes:
   kubectl apply -f world.yaml
 
   ensure both services are accessible through Kubernetes services
-  Open two new terminals and make sure you are in right directory
+  Open two new terminals
   In terminal 1 execute:
   minikube service hello        #opens service in web browser.. add /hello to get the response hello
 
