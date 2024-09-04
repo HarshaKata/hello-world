@@ -40,8 +40,8 @@ Deploying application on Kubernetes:
 Run script "combine.js" to print "Hello World"
   In main terminal execute:
   node combine.js               #will print "Hello World" in console
-  
-    
-    
 
+Docker image links:  
+world: https://hub.docker.com/layers/harshakata/world/latest/images/sha256:7d63bf16f63c1c11b7bf037b6f48b86d569513101e94fb1f83197dbb0e67f7fd?uuid=8f6ea230-7cc4-4730-9a1e-0317ed314bbe%0A 
+hello: https://hub.docker.com/layers/harshakata/hello/latest/images/sha256:3c5400bd3940300cc1b829541cd2700868b44664db7b5ca9dd03b18d2f41ff89?uuid=8f6ea230-7cc4-4730-9a1e-0317ed314bbe%0A 
     
