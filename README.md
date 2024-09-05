@@ -43,5 +43,5 @@ Run script "combine.js" to print "Hello World"
 
 Docker image links:  
 world: https://hub.docker.com/layers/harshakata/world/latest/images/sha256:7d63bf16f63c1c11b7bf037b6f48b86d569513101e94fb1f83197dbb0e67f7fd?uuid=8f6ea230-7cc4-4730-9a1e-0317ed314bbe%0A 
-hello: https://hub.docker.com/layers/harshakata/hello/latest/images/sha256:3c5400bd3940300cc1b829541cd2700868b44664db7b5ca9dd03b18d2f41ff89?uuid=8f6ea230-7cc4-4730-9a1e-0317ed314bbe%0A 
+hello: https://hub.docker.com/layers/harshakata/hello/latest/images/sha256:c2db5f6af9b557de1de59c1f2e5790f5681c38a5e1bbd043bf39a467766d4ee6?uuid=8f6ea230-7cc4-4730-9a1e-0317ed314bbe%0A
     
